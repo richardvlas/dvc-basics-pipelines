@@ -29,4 +29,6 @@ stages:
     - train.n_est
     - train.seed
     outs:
-    - model.pkl
+    - model.pkl:
+        remote: azure-model-store  
+
